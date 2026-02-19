@@ -5,7 +5,7 @@ A GPT implementation from scratch in ~200 lines of Python.
 Built to understand — not just run — the transformer architecture: what each component does,
 why the design choices exist, and what happens at the hardware level.
 
-Trained on UN General Assembly resolutions.
+Trained on arXiv ML/NLP paper abstracts.
 
 ## structure
 
@@ -21,7 +21,7 @@ writeup.md    — companion essay
 
 ```bash
 python train.py
-python generate.py --prompt "The General Assembly,"
+python generate.py --prompt "We propose a novel"
 ```
 
 ## writeup
