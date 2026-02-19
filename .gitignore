@@ -1,0 +1,23 @@
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# checkpoints
+*.pt
+*.pth
+checkpoints/
+runs/
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macos
+.DS_Store
+
+# data (keep corpus.txt, ignore large raw downloads)
+data/raw/
