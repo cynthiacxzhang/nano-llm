@@ -19,5 +19,6 @@ runs/
 # macos
 .DS_Store
 
-# data (keep corpus.txt, ignore large raw downloads)
+# data — corpus is generated, not tracked
+data/corpus.txt
 data/raw/
